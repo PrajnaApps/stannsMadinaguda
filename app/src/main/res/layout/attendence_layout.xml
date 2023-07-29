@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_header" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!--Ui component for our pie chart-->
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChart"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/_10sdp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <prajna.app.utills.customFonts.Text_Medium
+                android:id="@+id/tvPresent_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:drawableEnd="@drawable/ic_red"
+                android:drawablePadding="@dimen/_20sdp"
+                android:gravity="end"
+                android:text="Absence %"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp" />
+
+            <prajna.app.utills.customFonts.Text_Medium
+                android:id="@+id/tvAbsent_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:drawableEnd="@drawable/ic_green"
+                android:drawablePadding="@dimen/_20sdp"
+                android:gravity="end"
+                android:text="Presence %"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_20sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <prajna.app.utills.customFonts.Text_Bold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="Days Working"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp" />
+
+            <prajna.app.utills.customFonts.Text_Normal
+                android:id="@+id/tvDayworking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+
+            android:orientation="horizontal">
+
+            <prajna.app.utills.customFonts.Text_Bold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="Days Present"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp" />
+
+            <prajna.app.utills.customFonts.Text_Normal
+                android:id="@+id/tvDaypresent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <prajna.app.utills.customFonts.Text_Bold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp" />
+
+            <prajna.app.utills.customFonts.Text_Normal
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <prajna.app.utills.customFonts.Text_Bold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="Gender"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp" />
+
+            <prajna.app.utills.customFonts.Text_Normal
+                android:id="@+id/tvGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <prajna.app.utills.customFonts.Text_Bold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="Date of Birth"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp" />
+
+            <prajna.app.utills.customFonts.Text_Normal
+                android:id="@+id/tvStudDOB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <prajna.app.utills.customFonts.Text_Bold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="Class"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp" />
+
+            <prajna.app.utills.customFonts.Text_Normal
+                android:id="@+id/tvClass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

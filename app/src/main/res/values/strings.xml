@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Prajna</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_chat">Fee</string>
+    <string name="menu_notify">Notify</string>
+    <string name="notification">Notification</string>
+    <string name="menu_profile">Profile</string>
+    <string name="rupee">\u20B9</string>
+    <string name="pay">Pay</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="notification_channel_id">Test_Notification</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+</resources>

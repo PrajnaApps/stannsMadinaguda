@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <prajna.app.utills.customFonts.Text_Bold
+        android:id="@+id/txtRank"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text=""
+        android:lines="1"
+        android:textSize="@dimen/_12sdp" />
+
+    <prajna.app.utills.customFonts.Text_Normal
+        android:id="@+id/txtMovieName"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text=""
+        android:lines="1"
+        android:textSize="@dimen/_12sdp" />
+
+    <prajna.app.utills.customFonts.Text_Normal
+        android:id="@+id/txtYear"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text=""
+        android:lines="1"
+        android:textSize="@dimen/_12sdp" />
+
+    <prajna.app.utills.customFonts.Text_Normal
+        android:id="@+id/txtCost"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="match_parent"
+        android:background="@drawable/table_content_cell_bg"
+        android:text=""
+        android:lines="1"
+        android:textAlignment="center"
+        android:textSize="@dimen/_12sdp" />
+
+    <prajna.app.utills.customFonts.Text_Bold
+        android:id="@+id/txtPay"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="match_parent"
+        android:background="@drawable/button_bg"
+        android:text="PAY"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:lines="1"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:textAlignment="center"
+        android:textSize="@dimen/_12sdp" />
+
+</LinearLayout>

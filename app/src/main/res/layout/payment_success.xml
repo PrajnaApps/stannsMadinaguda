@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llpaymentsuccess"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_header" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/anim_success"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:lottie_autoPlay="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/success" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/anim_fail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/cancel" />
+
+
+
+    <prajna.app.utills.customFonts.Text_Bold
+        android:id="@+id/tvPaystatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="Payment Success"
+        android:textColor="@color/profile_bg"
+        android:textSize="@dimen/_24sdp" />
+
+    <prajna.app.utills.customFonts.Text_Medium
+        android:id="@+id/tvAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text=""
+        android:textColor="@color/profile_bg"
+        android:textSize="@dimen/_20sdp" />
+
+
+    <prajna.app.utills.customFonts.Text_Medium
+        android:id="@+id/tvOrderId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text=""
+        android:textColor="@color/profile_bg"
+        android:textSize="@dimen/_20sdp" />
+
+    <prajna.app.utills.customFonts.Button_Bold
+        android:id="@+id/btSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/_70sdp"
+        android:layout_marginEnd="@dimen/_70sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:background="@drawable/green_rounded_corner"
+        android:onClick="onClick"
+        android:text="Continue"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16sdp" />
+
+
+</LinearLayout>

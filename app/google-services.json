@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1018652340611",
+    "project_id": "prajna-b29e5",
+    "storage_bucket": "prajna-b29e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018652340611:android:951c0686c399ea331c06b6",
+        "android_client_info": {
+          "package_name": "prajna.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018652340611-3a86gb6ftmdre6ivp2bk1u6h2512g28j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5srdsiL2Ucgf_cZdelSzYBuZ7eR4pT_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018652340611-3a86gb6ftmdre6ivp2bk1u6h2512g28j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

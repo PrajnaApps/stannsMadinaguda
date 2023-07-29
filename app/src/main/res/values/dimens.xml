@@ -1,0 +1,162 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="snackbar_textsize">20sp</dimen>
+    <dimen name="placeholder_text_height">8dp</dimen>
+    <dimen name="activity_padding">16dp</dimen>
+    <dimen name="placeholder_image">90dp</dimen>
+
+    <dimen name="splash_main_text_size">32sp</dimen>
+    <dimen name="splash_version_text_size">12sp</dimen>
+
+    <dimen name="fab_margin_right">16dp</dimen>
+    <dimen name="fab_margin_bottom">16dp</dimen>
+
+    <dimen name="list_item_side_margin">16dp</dimen>
+
+
+    <dimen name="element_fragment_margin_small">8dp</dimen>
+
+    <dimen name="toggle_button_params">60dp</dimen>
+
+    <dimen name="call_buttons_diameter">64dp</dimen>
+    <dimen name="call_buttons_padding">16dp</dimen>
+
+    <dimen name="padding_outgoing_screen">48dp</dimen>
+
+    <dimen name="text_size_call">18sp</dimen>
+
+
+    <dimen name="margin_very_small">3dp</dimen>
+
+    <dimen name="margin_small">8dp</dimen>
+
+    <dimen name="toggle_button_params_small">30dp</dimen>
+
+    <dimen name="item_width">80dp</dimen>
+
+    <dimen name="element_fragment_margin">30dp</dimen>
+
+    <dimen name="grid_item_divider">1dp</dimen>
+
+    <dimen name="list_item_padding">8dp</dimen>
+
+    <dimen name="action_bar_height">80dp</dimen>
+
+    <dimen name="also_in_call_text_left_right_padding">64dp</dimen>
+
+    <dimen name="call_avatar_diameter">78dp</dimen>
+
+    <dimen name="padding_top_large">24dp</dimen>
+
+    <dimen name="caller_name_text_size">22sp</dimen>
+
+    <dimen name="also_on_call_text_size">16sp</dimen>
+
+    <dimen name="other_inc_users_text_size">16sp</dimen>
+
+    <dimen name="incoming_call_type_text_size">16sp</dimen>
+
+    <dimen name="padding_bottom">62dp</dimen>
+
+    <dimen name="income_call_buttons_margin">88dp</dimen>
+
+    <!--Pager fragment-->
+    <dimen name="pager_image_width">400dp</dimen>
+    <dimen name="pager_image_height">500dp</dimen>
+    <integer name="image_width_landscape">966</integer>
+    <integer name="image_width">1288</integer>
+    <dimen name="color_width">48dp</dimen>
+    <dimen name="color_height">48dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="_5sdp">5dp</dimen>
+    <dimen name="_8sdp">8dp</dimen>
+    <dimen name="_1sdp">1dp</dimen>
+    <dimen name="_2sdp">2dp</dimen>
+    <dimen name="_14sdp">14dp</dimen>
+    <dimen name="_10sdp">10dp</dimen>
+    <dimen name="_12sdp">12dp</dimen>
+    <dimen name="_13sdp">13dp</dimen>
+    <dimen name="_30sdp">30dp</dimen>
+    <dimen name="_32sdp">32dp</dimen>
+    <dimen name="_35sdp">35dp</dimen>
+    <dimen name="_15sdp">15sp</dimen>
+    <dimen name="_16sdp">16sp</dimen>
+    <dimen name="_17sdp">17sp</dimen>
+    <dimen name="_18sdp">18sp</dimen>
+    <dimen name="_20sdp">20sp</dimen>
+    <dimen name="_25sdp">25dp</dimen>
+    <dimen name="_24sdp">24dp</dimen>
+    <dimen name="_40sdp">40dp</dimen>
+    <dimen name="_45sdp">45dp</dimen>
+    <dimen name="_50sdp">50dp</dimen>
+    <dimen name="_70sdp">70dp</dimen>
+    <dimen name="_80sdp">80dp</dimen>
+    <dimen name="_90sdp">90dp</dimen>
+    <dimen name="_60sdp">60dp</dimen>
+    <dimen name="_100sdp">100dp</dimen>
+    <dimen name="_110sdp">110dp</dimen>
+    <dimen name="_120sdp">120dp</dimen>
+    <dimen name="_125sdp">125dp</dimen>
+    <dimen name="_130sdp">130dp</dimen>
+    <dimen name="_150dp">150dp</dimen>
+
+    <dimen name="item_height">34dp</dimen>
+    <dimen name="popup_padding_left">24dp</dimen>
+    <dimen name="popup_padding_top">12dp</dimen>
+    <dimen name="tool_bar_text">22sp</dimen>
+    <dimen name="navigation_drawer_width">300dp</dimen>
+
+    <dimen name="_146sdp">146dp</dimen>
+    <dimen name="_89sdp">89dp</dimen>
+
+    <dimen name="_151sdp">151dp</dimen>
+    <dimen name="_116sdp">116dp</dimen>
+
+    <!-- Font Sizes-->
+    <dimen name="font_20">20sp</dimen>
+    <dimen name="font_15">15sp</dimen>
+
+    <!-- Spacing -->
+    <dimen name="spacing_normal">16dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+
+    <!-- Sizes -->
+    <dimen name="toolbar_height">48dp</dimen>
+    <dimen name="option_min_height">48dp</dimen>
+    <dimen name="shadow_height">4dp</dimen>
+    <dimen name="selectProfile_layout">212dp</dimen>
+
+    <integer name="anim_duration_very_long">1500</integer>
+    <integer name="anim_duration_long">500</integer>
+    <integer name="anim_duration_medium">300</integer>
+    <dimen name="text_size_ringing">16sp</dimen>
+
+    <!--Scale-->
+    <dimen name="scale_line_small">10dp</dimen>
+    <dimen name="scale_line_medium">25dp</dimen>
+    <dimen name="scale_line_large">50dp</dimen>
+    <dimen name="yellow_line_stroke_width">2dp</dimen>
+    <dimen name="text_start_point">107dp</dimen>
+    <dimen name="txt_size">10dp</dimen>
+
+    <dimen name="margin_common">16dp</dimen>
+
+    <dimen name="text_size">20sp</dimen>
+
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="seek_bar_thickness">5dp</dimen>
+    <dimen name="seek_bar_thumb_size">20dp</dimen>
+    <!--marginSize-->
+    <dimen name="marginContent">24dp</dimen>
+    <dimen name="marginSize">16dp</dimen>
+    <dimen name="margin8dp">8dp</dimen>
+    <dimen name="margin4dp">4dp</dimen>
+    <dimen name="grid_horizontal_spacing">50dp</dimen>
+    <dimen name="bottom_sheet_corner_radius">16dp</dimen>
+    <dimen name="bottom_sheet_top_padding">8dp</dimen>
+</resources>

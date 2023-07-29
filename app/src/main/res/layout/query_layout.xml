@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_header" />
+
+    <prajna.app.utills.customFonts.EditeText_font
+        android:id="@+id/etFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/border_aboutus_white"
+        android:gravity="top"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:textSize="@dimen/_18sdp"
+        android:hint="Enter your Query"
+        android:inputType="textMultiLine|textNoSuggestions|textCapSentences"
+        android:maxLength="300"
+        android:minLines="7"
+        android:maxLines="20"
+        android:overScrollMode="always"
+        android:padding="@dimen/_10sdp"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:alpha="50"
+        android:textColor="@color/black_bg"
+        android:textColorHint="@color/text_color_name"
+        android:textCursorDrawable="@drawable/cursor_color" />
+
+    <prajna.app.utills.customFonts.Button_Normal
+        android:id="@+id/btSubmitfeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/green_rounded_corner"
+        android:onClick="onClick"
+        android:text="SUBMIT QUERY"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_60sdp"
+        android:textSize="@dimen/_16sdp" />
+</LinearLayout>

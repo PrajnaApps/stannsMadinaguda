@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/_10sdp"
+    android:layout_height="wrap_content">
+
+
+    <prajna.app.utills.customFonts.Text_Normal
+        android:id="@+id/tvSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:layout_weight="1"
+        android:text="Admission Date"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16sdp" />
+
+
+
+    <prajna.app.utills.customFonts.Text_Normal
+        android:id="@+id/tvMarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:gravity="end"
+        android:layout_weight="1"
+        android:text="Admission Date"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16sdp" />
+
+
+</LinearLayout>

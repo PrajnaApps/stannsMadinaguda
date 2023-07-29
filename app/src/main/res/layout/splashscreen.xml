@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/logo_prajna"
+        android:layout_margin="@dimen/_50sdp"
+        android:layout_height="wrap_content"/>
+
+    <prajna.app.utills.customFonts.Text_Bold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRAJNA"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="50dp" />
+
+
+</LinearLayout>

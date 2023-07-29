@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_10sdp"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:layout_marginEnd="@dimen/_10sdp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/_20sdp"
+    app:cardElevation="@dimen/_5sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+
+        <prajna.app.utills.customFonts.Text_Normal
+            android:id="@+id/tvAmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="Admission Date"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp" />
+
+
+        <prajna.app.utills.customFonts.Text_Normal
+            android:id="@+id/tvReceipt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:lines="1"
+            android:text="Admission Date"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp" />
+
+        <prajna.app.utills.customFonts.Text_Normal
+            android:id="@+id/tvPaymode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:lines="1"
+            android:text="Admission Date"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp" />
+
+
+        <prajna.app.utills.customFonts.Text_Normal
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:lines="1"
+            android:text="Admission Date"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#7b7cff</color>
+    <color name="colorPrimary">#7b7cff</color>
+    <color name="colorPrimaryDark">#2A6CA2</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF1100</color>
+    <color name="green">#01C400</color>
+    <color name="whatsapp">#25D366</color>
+
+    <color name="tint_color">#ACC2D3</color>
+    <color name="divider">#E7EDF4</color>
+    <color name="tab_color">#E0EAF9</color>
+    <color name="blue_text">#4176BC</color>
+
+
+    /*mode colors*/
+    <color name="main_bg_color">#FFFFFF</color>
+    <color name="text_color">#090909</color>
+    <color name="blue">#009EDB</color>
+    <color name="liteblue">#E1EDF8</color>
+    <color name="surface">#F1F1F1</color>
+    <color name="surface_border">#0000001F</color>
+    <color name="rating_color">#FFD855</color>
+
+    /*common colors*/
+    <color name="profile_bg">#181818</color>
+    <color name="black_bg">#102A40</color>
+    <color name="gray">#707070</color>
+    <color name="gray_title">#6680A4</color>
+    <color name="gray_lite">#7991A6</color>
+    <color name="text_color_hint">#C4C2C2</color>
+    <color name="text_color_name">#707070</color>
+    <color name="light_blue">#0070FF</color>
+    <color name="aboutus_text">#DADADA</color>
+    <color name="aboutme_border">#707070</color>
+    <color name="subtitle_color">#ADADAD</color>
+    <color name="progress_bar_color">#302E2E</color>
+    <color name="tag_color">#ACC2D3</color>
+    <color name="chip_stroke">#181818</color>
+    <color name="company_tag">#899391</color>
+    <color name="aboutme_bg">#F7F7F7</color>
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="journey_tag">#A5A5A5</color>
+    <color name="journey_step">#D9D9D9</color>
+    <color name="title_date">#A1A1A1</color>
+    <color name="settings_tag">#464C4E</color>
+    <color name="myplan_tag">#9C9C9C</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+
+    <color name="light_sea_green">#31cb95</color>
+    <color name="white_smoke">#eff0f0</color>
+    <color name="silver">#c8c8c8</color>
+    <color name="orange">#FF8E03</color>
+    <color name="dark_gray">#A9A9A9</color>
+    <color name="dark_late_gray">#2b3e50</color>
+
+    <color name="pending_color">#ECB21D</color>
+    <color name="accepted_color">#12CA2F</color>
+    <color name="cancel_color">#FC4747</color>
+
+    <color name="colorBadge">#f4d415</color>
+
+
+</resources>
